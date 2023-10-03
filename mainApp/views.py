@@ -263,9 +263,8 @@ def update_profile(request):
 
 def payment(request, flower_id):
     if request.method == "POST":
-        pass
-        # order       
-        # amount_payed
-        # payer       
-        # payment_date
+        order = request.POST['order']
+        amount_payed = request.POST['amount_payed']
+        payer = request.user
+            
     return render(request, 'main/payment.html', {"payments":Payment.objects.all() })
