@@ -34,6 +34,9 @@
 >>> **Tailwindcss**
 >>>> `npm install`
 
+>>> **run the tailwindcss code**
+>>>> `npm run dev`
+
 >> ## Run the application
 >>> `python manage.py runserver`
 
